@@ -1,0 +1,28 @@
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+
+#botones{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#botones ul li{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+button {
+	border-radius: 100%;
+	width: 5%;
+	height: 10px;
+	border: none;
+}
+
+#imagenes ul{
+	display: inline-block;
+}
