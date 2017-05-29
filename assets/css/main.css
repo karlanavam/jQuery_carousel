@@ -8,6 +8,7 @@ li {
 #botones{
 	width: 100%;
 	margin: 0 auto;
+	padding-left: 50%;
 }
 
 #botones ul li{
@@ -25,4 +26,12 @@ button {
 
 #imagenes ul{
 	display: inline-block;
+}
+
+#img-uno {
+	display: block;
+}
+
+#img-dos, #img-tres, #img-cuatro, #img-cinco  {
+	display: none;
 }
