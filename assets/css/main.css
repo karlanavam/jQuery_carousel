@@ -4,7 +4,7 @@
 
 #carousel {
 	margin: 0 auto;
-	position: fixed;
+	
 }
 
 
@@ -18,4 +18,33 @@ button {
 
 .centrar {
 	text-align: center;
+}
+
+#btn-prev, #btn-next {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top: 50%; /* posion para que siempre este enmedio*/
+    transform: translate(-50%);
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    background-color: rgba(0,0,0, 0.6); 
+}
+
+#btn-prev {
+    left: 30%;
+}
+
+#btn-next {
+    right: 27%;
 }
