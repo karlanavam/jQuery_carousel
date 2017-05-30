@@ -1,37 +1,21 @@
-li {
-	list-style: none;
-	display: inline-block;
-}
-
-
-
-#botones{
+#contenedorCarousel {
 	width: 100%;
-	margin: 0 auto;
-	padding-left: 50%;
 }
 
-#botones ul li{
-	text-align: center;
+#carousel {
 	margin: 0 auto;
+	position: fixed;
 }
 
 
 button {
 	border-radius: 100%;
-	width: 5%;
-	height: 10px;
+	width: 1.2%;
+	height: 12px;
 	border: none;
-}
-
-#imagenes ul{
 	display: inline-block;
 }
 
-#img-uno {
-	display: block;
-}
-
-#img-dos, #img-tres, #img-cuatro, #img-cinco  {
-	display: none;
+.centrar {
+	text-align: center;
 }
